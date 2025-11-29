@@ -1,0 +1,129 @@
+body {
+    font-family: "Georgia", serif;
+    background: #1a1a1a;
+    color: #f5eaea;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+
+header {
+    background: #3e0d17;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f8d6d6;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding: 40px;
+}
+
+nav {
+    background: #2a0a12;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffb7c5;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content{
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+
+}
+.container h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #5c1b1b;
+}
+
+h2 {
+    color: #ffb7c5;
+}
+
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.cake-item {
+    background: #2f0f17;
+    padding: 15px;
+    border: 1px solid #5e1a25;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cake-item img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #5e1a25;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: #3b141d;
+    border: 1px solid #70313f;
+    color: #f8d6d6;
+}
+
+button {
+    padding: 10px 25px;
+    background: #8b2439;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a02d46;
+}
